@@ -1,0 +1,184 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.left-div {
+    width: 50%;
+    padding-top: 15px;
+    /* background-color: aqua; */
+}
+
+.mainDiv {
+    display: flex;
+    justify-content: center;
+}
+
+.imgDiv {
+
+    width: 300px;
+    height: 300px;
+    position: relative;
+    overflow: hidden;
+}
+
+.slide {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    transition: 1s;
+}
+
+.right-div {
+    width: 30%;
+    /* background-color: brown; */
+}
+
+.heading {
+    font-size: 2rem;
+}
+
+#price1 {
+    color: #3A70F8;
+    font-size: 1rem;
+}
+
+#price2 {
+    color: #1A1A1AB3;
+    font-size: 0.8rem;
+    text-decoration: line-through;
+}
+
+.tax {
+    font-size: 0.75rem;
+}
+
+.description {
+    font-size: 1rem;
+    color: #1A1A1A;
+}
+
+.quantity {
+    font-size: 1rem;
+    color: #1A1A1AB3;
+}
+
+.btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 8px;
+    width: 40%;
+    height: 2.5rem;
+    border: 1px solid gray;
+    border-radius: 20px;
+}
+
+.btnQty {
+    border: none;
+    border-radius: 10px;
+    color: #1A1A1A;
+    background-color: white;
+
+}
+
+.addToCart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 3.70rem;
+    background-color: #1A1A1A;
+    color: azure;
+    border-radius: 25px;
+    margin-top: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav {
+    text-align: center;
+    margin-top: 10px;
+    position: absolute;
+    top: 0px;
+
+}
+
+.nav button {
+
+    font-size: 20px;
+    width: 148px;
+    height: 300px;
+    opacity: 0;
+}
+
+.nav button:hover {
+    cursor: pointer;
+    background-color: aqua;
+    opacity: 0;
+}
+
+@media only screen and (max-width: 600px) {
+    .imgDiv {
+        width: 200px;
+        height: 200px;
+    }
+
+    .slide {
+        width: 200px;
+        height: 200px;
+    }
+
+    .nav button {
+        font-size: 20px;
+        width: 100px;
+        height: 200px;
+        opacity: 0;
+    }
+
+    .nav button:hover {
+        cursor: pointer;
+        opacity: 0;
+    }
+
+    main {
+        display: block;
+    }
+
+    .left-div {
+        width: 100%;
+    }
+
+    .right-div {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 396px) {
+    .imgDiv {
+        width: 100px;
+        height: 100px;
+    }
+
+    .slide {
+        width: 100px;
+        height: 100px;
+    }
+
+    .nav button {
+        font-size: 20px;
+        width: 50px;
+        height: 100px;
+        opacity: 0;
+    }
+
+    .nav button:hover {
+        cursor: pointer;
+        opacity: 0;
+    }
+}

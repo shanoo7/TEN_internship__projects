@@ -1,0 +1,388 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/*first-section*/
+#first-section {
+    width: 100%;
+    min-height: 300px;
+    display: flex;
+    padding: 3%;
+}
+
+.first-section-left {
+    width: 100%;
+}
+
+.first-section-left img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.first-section-middle {
+    width: 100%;
+    padding: 3%;
+}
+
+.first-section-middle h1 {
+    padding-left: 5%;
+    border-bottom: 1px solid #a39f9f;
+    padding-bottom: 2%;
+}
+
+.first-section-middle img {
+    width: 100%;
+    padding-top: 10px;
+}
+
+.first-section-p-button p {
+    padding-right: 5%;
+}
+
+.first-section-p-button button {
+    text-wrap: nowrap;
+    padding: 3%;
+    border: none;
+    border-radius: 5px;
+    font-weight: bolder;
+}
+
+.first-section-right {
+    width: 100%;
+}
+
+.first-section-right-card {
+    text-align: center;
+    width: 100%;
+    min-height: 300px;
+    border: 1px solid rgb(180, 176, 176);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.first-section-right-card h5 {
+    margin-bottom: 15px;
+}
+
+.btn-div {
+    padding: 10px;
+    border: 2px solid rgb(182, 177, 177);
+}
+
+.btn-div button {
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    background-color: white;
+}
+
+#span3,
+#span2 {
+    border-left: 2px solid rgb(182, 177, 177);
+}
+
+.first-section-right-card p {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.first-section-right-card .btn {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.first-section-right-card .btn button {
+    padding: 3% 6% 3% 6%;
+    background-color: rgb(250, 123, 77);
+    border-radius: 10px;
+    border: none;
+    border: 0.5px solid black;
+    cursor: pointer;
+}
+
+.first-section-right-card .btn button:hover {
+    background-color: #a39f9f;
+}
+
+
+/*second-section*/
+#second-section {
+    width: 100%;
+    margin-top: 5%;
+}
+
+.second-section-right {
+    width: 50%;
+    float: right;
+}
+
+.second-section-right p {
+    margin-bottom: 15px;
+
+}
+
+.add1 {
+    width: 100%;
+    border: 1px solid rgb(187, 181, 181);
+    border-bottom: none;
+    border-radius: 1%;
+    display: flex;
+    align-items: center;
+    gap: 2%;
+    padding: 3%;
+}
+
+.add1 img {
+    width: 10%;
+    border-radius: 3%;
+}
+
+.second-heading h6 {
+    margin-top: 4%;
+    color: #1a1a1a;
+}
+
+.second-add-btn button {
+    border: none;
+    padding: 10%;
+    width: 60px;
+    height: 30px;
+    border-radius: 15px;
+}
+
+.add1-last-border {
+    border-bottom: 1px solid rgb(187, 181, 181);
+}
+
+
+/*third-section*/
+#third-section {
+    width: 100%;
+    display: inline-block;
+}
+
+#research {
+    margin-top: 50px;
+    padding-left: 5%;
+    font-size: 3rem;
+}
+
+.third-section-main-headline {
+    width: 100%;
+    display: flex;
+    margin-top: 20px;
+    border-radius: 10px;
+
+}
+
+.main-headline-left {
+    width: 100%;
+    position: relative;
+    display: flex;
+    overflow: hidden;
+    border-top-left-radius: 10px;
+}
+
+.main-headline-left img {
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+.main-headline-left img:hover {
+    cursor: pointer;
+    width: 100%;
+    transform: scale(1.1);
+}
+
+.main-headline-right {
+    width: 70%;
+    padding: 2%;
+    background-color: #e8e8ea;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.main-headline-right button {
+    border: none;
+    padding: 2%;
+    margin-bottom: 10px;
+    border-radius: 20px;
+}
+
+.main-headline-right h1 {
+    margin-bottom: 20px;
+}
+
+
+/*fourth-section*/
+#fourth-section {
+    width: 100%;
+}
+
+/*review*/
+.start-writeareviwe {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.start-writeareviwe span {
+    padding: 10px;
+    border-radius: 5px;
+    border: 0.5px solid grey;
+}
+
+#review {
+    text-align: center;
+}
+
+#review a {
+    text-decoration: underline;
+}
+
+#fourth-section h1 {
+    text-align: center;
+    font-size: 3rem;
+}
+
+.card {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(226, 223, 223);
+    margin-top: 10px;
+}
+
+.card span {
+    background-color: rgb(87, 87, 247);
+    padding: 4px 5px 4px 5px;
+    color: white;
+    font-weight: 700;
+    font-size: 0.8rem;
+    border-radius: 20px;
+}
+
+.h4-1 {
+    color: rgb(45, 45, 235);
+    ;
+}
+
+.h4-2 {
+    color: rgb(138, 143, 143);
+    text-decoration: line-through;
+}
+
+.card-box {
+    width: 290px;
+    border-radius: 4%;
+    padding: 3%;
+    margin: 4%;
+
+    background-color: white;
+}
+
+#noWrap {
+    text-wrap: nowrap;
+}
+
+.card-box img {
+    width: 100%;
+}
+
+.card-box img:hover {
+    width: 100%;
+    opacity: 80%;
+    cursor: pointer;
+    transition: all 1s;
+}
+
+.card-price-buy {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2%;
+}
+
+.card-price-buy h4 {
+    margin-bottom: 10px;
+}
+
+.card-buy button {
+    border: none;
+    outline: none;
+    padding: 10px 15px 10px 15px;
+    margin: 5px;
+    border-radius: 30px;
+    cursor: pointer;
+    background-color: rgb(36, 34, 34);
+    color: white;
+}
+
+.card-buy :hover {
+    background-color: gray;
+    color: blanchedalmond;
+}
+
+
+
+
+
+
+
+
+@media ((min-width:600px) and (max-width:700px)) {
+    .first-section-left {
+        width: 70%;
+    }
+
+    .first-section-middle {
+        width: 70%;
+        padding: 3%;
+    }
+
+    .first-section-right {
+        width: 100%;
+    }
+}
+
+@media (max-width:600px) {
+    #first-section {
+
+        display: block;
+
+    }
+
+    .third-section-main-headline {
+
+        display: block;
+    }
+
+    .main-headline-left {
+        width: 100%;
+        border-top-right-radius: 10px;
+    }
+
+    .main-headline-left img {
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 0px;
+    }
+
+    .main-headline-right {
+        width: 100%;
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 10px;
+    }
+
+    .imgdiv {
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 0px;
+    }
+
+}
